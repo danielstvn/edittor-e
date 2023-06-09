@@ -1,0 +1,31 @@
+.container {
+  margin: 5% auto;
+  display: grid;
+  grid-template-rows: minmax(0,auto) minmax(0,auto);
+  grid-template-areas:"div1 div2"
+}
+
+.div1{
+  grid-area: div1;
+}
+
+.div1 button{
+  margin-left: 5%;
+}
+
+.div2{
+  grid-area: div2;
+}
+
+.in-exp{
+  margin-left: 5%;
+  width: 500px;
+  height: 30px;
+}
+
+.txt-area{
+  margin-left: 5px;
+  width: 500px;
+  height: 500px;
+
+}
